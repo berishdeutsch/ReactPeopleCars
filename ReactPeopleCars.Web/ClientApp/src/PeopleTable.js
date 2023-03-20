@@ -22,7 +22,7 @@ class PeopleTable extends React.Component {
         const { people } = this.state;
         return (
             <>
-           <Link to={`/addperson`}> <button className="btn btn-success btn-lg btn-block">Add Person</button></Link>
+           <Link to='/addperson'> <button className="btn btn-success btn-lg btn-block">Add Person</button></Link>
            <br />
             <table className="table table-hover table-striped table-bordered">
                 <thead>
